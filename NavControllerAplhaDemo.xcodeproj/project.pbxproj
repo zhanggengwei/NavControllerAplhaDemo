@@ -15,6 +15,7 @@
 		750C894F1D45388B0024BBB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750C894D1D45388B0024BBB5 /* LaunchScreen.storyboard */; };
 		750C895A1D45388B0024BBB5 /* NavControllerAplhaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89591D45388B0024BBB5 /* NavControllerAplhaDemoTests.m */; };
 		750C89651D45388C0024BBB5 /* NavControllerAplhaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89641D45388C0024BBB5 /* NavControllerAplhaDemoUITests.m */; };
+		750C89741D4538D70024BBB5 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C89731D4538D70024BBB5 /* CustomNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		750C89601D45388C0024BBB5 /* NavControllerAplhaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavControllerAplhaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		750C89641D45388C0024BBB5 /* NavControllerAplhaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavControllerAplhaDemoUITests.m; sourceTree = "<group>"; };
 		750C89661D45388C0024BBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750C89721D4538D70024BBB5 /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
+		750C89731D4538D70024BBB5 /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				750C89431D45388B0024BBB5 /* AppDelegate.m */,
 				750C89451D45388B0024BBB5 /* ViewController.h */,
 				750C89461D45388B0024BBB5 /* ViewController.m */,
+				750C89721D4538D70024BBB5 /* CustomNavController.h */,
+				750C89731D4538D70024BBB5 /* CustomNavController.m */,
 				750C89481D45388B0024BBB5 /* Main.storyboard */,
 				750C894B1D45388B0024BBB5 /* Assets.xcassets */,
 				750C894D1D45388B0024BBB5 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750C89741D4538D70024BBB5 /* CustomNavController.m in Sources */,
 				750C89471D45388B0024BBB5 /* ViewController.m in Sources */,
 				750C89441D45388B0024BBB5 /* AppDelegate.m in Sources */,
 				750C89411D45388B0024BBB5 /* main.m in Sources */,

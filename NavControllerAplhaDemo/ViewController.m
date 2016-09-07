@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIScrollViewDelegate>
+
+@property (nonatomic,strong) UITableView * tableView;
+
 
 @end
 
@@ -16,6 +19,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
+    [self.view addSubview:self.tableView];
+    [self addObserver:self forKeyPath:@"self.tableView.offset.y" options:NSKeyValueObservingOptionNew context:nil];
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

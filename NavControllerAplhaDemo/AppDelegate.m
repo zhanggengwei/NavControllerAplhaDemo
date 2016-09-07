@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CustomNavController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    CustomNavController * navcontroller = [[CustomNavController alloc]initWithRootViewController:[ViewController new]];
+    
+    self.window = [[UIWindow alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];
+    self.window.backgroundColor = [UIColor whiteColor];
+                                                           
+    
+    self.window.rootViewController =navcontroller;
+    
+    
     return YES;
 }
 
